@@ -1,0 +1,23 @@
+Requests ran for 30 seconds each
+
+
+GET Request:
+
+  1 request a second :
+    Mean response/sec: 1.02
+    Response time (msec):
+      min: 3.4
+      max: 30.7
+      median: 4.1
+
+  10 requests a second :
+    Mean response/sec: 9.88
+    Response time (msec):
+      min: 3.1
+      max: 26.8
+      median: 3.7
+
+
+  100 requests a second :
+
+  1000 requests a second:
