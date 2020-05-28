@@ -1,0 +1,24 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 30
+      arrivalRate: 1
+
+scenarios:
+  - flow:
+    - post:
+        url: "/reviews/10000000"
+        json:
+          rev_Id: 10000000
+          rating: 5
+          title: "I love SDC"
+          review: "Gimme dat proxy stress test"
+          recommendation: true
+          nickname: "hrla36"
+          email: "hrla@36.com"
+          age: "noage"
+          bodyType: "curvy"
+          location: "Los Angeles"
+          weareTo: "casual"
+          likes: "Seeding"
+          dislikes: "scaling"

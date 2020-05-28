@@ -19,5 +19,20 @@ GET Request:
 
 
   100 requests a second :
+    Mean response/sec: 98.43
+    Response time (msec):
+      min: 1.7
+      max: 34.5
+      median: 3.2
 
   1000 requests a second:
+
+    Mean response/sec: 239.79
+    Response time (msec):
+      min: 3.7
+      max: 59.1
+      median: 6.5
+
+
+POST:
+
