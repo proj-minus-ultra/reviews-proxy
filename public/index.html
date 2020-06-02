@@ -2,15 +2,24 @@
 <html lang='en'>
   <head>
     <meta charset="UTF-8">
-    <title> LuluLemon FEC</title>
+    <title> SDC Proxy</title>
     <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
     crossorigin="anonymous"
   />
-    <link rel="stylesheet" type="text/css" href="http://localhost:3001/styles.css">
-    <link rel="stylesheet" type="text/css" href="http://localhost:3005/stylesheets/style.css">
+
+
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic'>
+
+    <link rel="stylesheet" type="text/css" href="https://sdc-alex.s3-us-west-2.amazonaws.com/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://sdc-alex.s3-us-west-2.amazonaws.com/main/styles.css">
+    <link rel='stylesheet' type='text/css' href="https://sdc-alex.s3-us-west-2.amazonaws.com/nav/stylesheets/style.css">
+    <link rel='stylesheet' type='text/css' href="https://sdc-alex.s3-us-west-2.amazonaws.com/related/stylesheets/style.css">
+
   </head>
   <body>
     <div id='header'></div>
@@ -19,9 +28,9 @@
     <div id='similar'></div>
     <div id='reviews'></div>
 
-    <script src='http://localhost:3001/bundle.js'></script>
-    <script src='http://localhost:3010/bundle.js'></script>
-    <script src='http://localhost:3005/bundle.js'></script>
-    <script src='http://localhost:9000/main.js'></script>
+    <!--<script src='https://sdc-alex.s3-us-west-2.amazonaws.com/main/bundle.js'></script> Main Component-->
+    <!-- <script src='https://sdc-alex.s3-us-west-2.amazonaws.com/nav/bundle.js'></script> Nav Component-->
+    <!-- <script src='https://sdc-alex.s3-us-west-2.amazonaws.com/related/bundle.js'></script> Related Component (for some reason this breaks everything)-->
+    <script src="https://sdc-alex.s3-us-west-2.amazonaws.com/main.js"></script> <!--Reviews Component-->
   </body>
 </html>
