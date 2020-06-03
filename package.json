@@ -11,9 +11,9 @@
     "start": "nodemon server/index.js",
     "stress-get": "artillery run stress-test/get.yml",
     "stress-post": "artillery run stress-test/post.yml",
-    "docker-build": "docker build . -t sdc-proxy",
-    "docker-run": "docker run -p 4000:4000 sdc-proxy",
-    "docker-push": "docker tag sdc-proxy alexbenko/sdc-proxy && docker push alexbenko/sdc-proxy "
+    "docker-build": "docker build . -t proxy",
+    "docker-run": "docker run -p 80:80 proxy",
+    "docker-push": "docker tag proxy alexbenko/proxy && docker push alexbenko/proxy "
   },
   "dependencies": {
     "axios": "^0.19.2",
